@@ -1,0 +1,45 @@
+# Local Python environments and caches
+/venv/
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated application bundles and installers
+/build/
+/dist/
+*.egg-info/
+
+# Local settings, secrets, editor files and OS metadata
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/
+
+# User recordings, serial captures, logs and local media
+*.csv
+*.log
+*.mp4
+*.mov
+*.avi
+*.mkv
+/recordings/
+/logs/
+/brainwave_*.txt
+/raw_packets_*.txt
+/poor_signal_*.txt
+/wear_detection_*.txt
+
+# Older local hardware diagnostics; the published project uses the V8 entry point
+/brainwave_debugger.py
+/brainwave_signal_logger_txt.py
+/collect_raw_packets.py
+/test_brainwave_device.py
+/test_poor_signal.py
+/test_wear_detection.py
